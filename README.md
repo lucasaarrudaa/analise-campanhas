@@ -1,3 +1,11 @@
+# Análise A/B 
+
+## Este é um código em Python executado em um ambiente Jupyter Notebook em um contêiner Docker. O código está usando as bibliotecas numpy e pandas para manipulação de dados.
+
+## INSTRUÇÕES 
+
+**Instação do docker e criação do container**
+
 - Passo 1: Instalar o Docker
 
 - Passo 2: Executar o dockerfile 
