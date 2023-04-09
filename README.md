@@ -3,18 +3,18 @@
 ## Este é um código em Python executado em um ambiente Jupyter Notebook em um contêiner Docker. O código está usando as bibliotecas numpy e pandas para manipulação de dados.
 
 # Sobre o dataset 
-
-| auction_id | o identificador único do usuário online que foi apresentado ao questionário BIO. Em terminologia padrão, isso é chamado de ID de impressão. O usuário pode ver o questionário BIO, mas optar por não responder. Nesse caso, as colunas "yes" e "no" são ambas zero.|
-| experiment | a qual grupo o usuário pertence - controle ou exposto.|
-| control | usuários que viram um anúncio fictício.|
-| exposed | usuários que viram um anúncio criativo, um anúncio online interativo, com a marca SmartAd.|
-| date | a data no formato AAAA-MM-DD.|
-| hour | a hora do dia no formato HH.|
-| device_make | o nome do tipo de dispositivo que o usuário possui, por exemplo, Samsung.|
-| platform_os | o ID do sistema operacional que o usuário possui.|
-| browser | o nome do navegador que o usuário utiliza para visualizar o questionário BIO.|
-| yes | 1 se o usuário escolher o botão de rádio "Sim" para o questionário BIO.|
-| no | 1 se o usuário escolher o botão de rádio "Não" para o questionário BIO.|
+| Coluna | Descrição
+| auction_id | o identificador único do usuário online que foi apresentado ao questionário BIO. Em terminologia padrão, isso é chamado de ID de impressão. O usuário pode ver o questionário BIO, mas optar por não responder. Nesse caso, as colunas "yes" e "no" são ambas zero |
+| experiment | a qual grupo o usuário pertence - controle ou exposto|
+| control | usuários que viram um anúncio fictício|
+| exposed | usuários que viram um anúncio criativo, um anúncio online interativo, com a marca SmartAd|
+| date | a data no formato AAAA-MM-DD|
+| hour | a hora do dia no formato HH|
+| device_make | o nome do tipo de dispositivo que o usuário possui, por exemplo, Samsung|
+| platform_os | o ID do sistema operacional que o usuário possui|
+| browser | o nome do navegador que o usuário utiliza para visualizar o questionário BIO|
+| yes | 1 se o usuário escolher o botão de rádio "Sim" para o questionário BIO|
+| no | 1 se o usuário escolher o botão de rádio "Não" para o questionário BIO|
 
 ## INSTRUÇÕES 
 
