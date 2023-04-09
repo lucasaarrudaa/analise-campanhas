@@ -33,8 +33,8 @@ o seguinte comando para construir a imagem do container:
 
 - Passo 4: Executar o container 
     - docker run -p 8888:8888 vscode-jupyer
-    
-# Conclusão
+
+# Conclusão da análise
 
 Com base na análise, o anúncio interativo online com a **marca SmartAd** foi considerado *mais eficaz do que* o **anúncio fictício** na geração de *engajamento do usuário e cliques*. **A taxa de cliques para o grupo exposto foi de 0,0769, que é maior** do que a taxa de cliques para o grupo de **controle de 0,0648**. *A diferença entre os dois grupos é de 0,0120*, indicando que o *anúncio interativo online foi mais eficaz na geração de engajamento do usuário.*
 
