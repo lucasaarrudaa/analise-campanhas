@@ -26,9 +26,9 @@
 - Passo 2: Executar o dockerfile 
     - OBS: Essas instruções irão criar uma imagem de container baseada na imagem oficial do Python 3.8, instalar o VS Code e o Jupyter, configurar o VS Code para usar o Jupyter e expor a porta 8888 para o acesso ao Jupyter Notebook.
 
-- Passo 3: No terminal, navegue até o diretório onde você criou o arquivo Dockerfile e execute 
-o seguinte comando para construir a imagem do container:
-    - *docker build -t vscode-jupyer .*
+- Passo 3: No terminal, execute o seguinte comando para construir a imagem do container:
+    - *docker build -t vscode-jupyter -f Docker\DockerFile .*
+    Neste caso, executei o código na raiz do projeto.
     O ponto (.) no final do comando indica que o Docker deve usar o diretório atual como contexto para construir a imagem.
 
 - Passo 4: Executar o container 
