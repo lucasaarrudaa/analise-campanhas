@@ -3,7 +3,7 @@
 ## Este é um código em Python executado em um ambiente Jupyter Notebook em um contêiner Docker. O código está usando as bibliotecas numpy e pandas para manipulação de dados.
 
 # Sobre o dataset 
-| Coluna | Descrição
+| Coluna | Descrição|
 | auction_id | o identificador único do usuário online que foi apresentado ao questionário BIO. Em terminologia padrão, isso é chamado de ID de impressão. O usuário pode ver o questionário BIO, mas optar por não responder. Nesse caso, as colunas "yes" e "no" são ambas zero |
 | experiment | a qual grupo o usuário pertence - controle ou exposto|
 | control | usuários que viram um anúncio fictício|
