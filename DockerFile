@@ -1,0 +1,27 @@
+FROM python:3.8
+
+# Instalando VSCode
+RUN apt-get update && apt-get install -y curl
+RUN curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor -o microsoft.gpg
+RUN mv microsoft.gpg /etc/apt/trusted.gpg.d/
+RUN curl -fsSL https://packages.microsoft.com/config/debian/10/prod.list | tee /etc/apt/sources.list.d/vscode.list
+RUN apt-get update && apt-get install -y code
+
+# Copiar o arquivo requirements.txt para o contêiner
+COPY requirements.txt .
+
+# Instalar as dependências do requirements.txt
+RUN pip install -r requirements.txt
+
+# Instalando o Jupyter
+RUN pip install jupyter
+
+# Configurando o VS Code para usar o Jupyter
+RUN code --install-extension ms-python.python
+RUN code --install-extension ms-toolsai.jupyter
+
+# porta para o jupyter
+EXPOSE 8888
+
+# Inicie o Jupyter Notebook quando o container for executado
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
