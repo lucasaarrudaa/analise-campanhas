@@ -20,6 +20,7 @@
 ## INSTRUÇÕES 
 
 **Instação do docker e criação do container**
+-*OBS*: Você pode optar por não utilizar o docker, nesse caso, eu recomendo criar um ambiente virtual para instalar as dependências em requirements.txt.
 
 - Passo 1: Instalar o Docker
 
